@@ -8,6 +8,7 @@ HTML_PAGE = """
   <head><title>Addition App</title></head>
   <body style="font-family: Arial; margin: 40px;">
     <h1>Simple Addition Web App</h1>
+    <p>Reproduced by: Serag Gharaibeh - 166798</p>
     <form method="post">
       <label>First number:</label>
       <input type="number" name="a" required><br><br>
@@ -21,7 +22,7 @@ HTML_PAGE = """
   </body>
 </html>
 """
- 
+
 def add_numbers(a, b):
     return a + b
 
