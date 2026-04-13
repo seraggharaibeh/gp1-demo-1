@@ -14,7 +14,7 @@ HTML_PAGE = """
       <input type="number" name="a" required><br><br>
       <label>Second number:</label>
       <input type="number" name="b" required><br><br>
-      <input type="submit" value="Add">
+      <input type="submit" value="Add"> 
     </form>
     {% if result is not none %}
       <h2>Result: {{ result }}</h2>
